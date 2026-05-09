@@ -51,3 +51,33 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+  .info-dropdown {
+    background: #0001fb;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    display: inline-block;
+    position:absolute;
+    left: 50px;
+    top: 150px;
+  }
+
+  summary {
+    font-weight: bold;
+    outline: none;
+  }
+
+  .content {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background: white;
+  }
+
+
+    .content p {
+      font-size: 25px;
+      font-weight: bold;
+    }
